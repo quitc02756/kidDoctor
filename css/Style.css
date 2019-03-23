@@ -870,6 +870,23 @@ p.radio-bgCust {
     width: 100px;
   }
 }
+/*@media (max-width: 1440px) {
+  .page2--content {
+    right: 300px;
+  }
+  .textContent--One, .textContent--Two {
+    font-size: 120px;
+  }
+  .questionMarkAbs {
+    font-size: 310px;
+  }
+  .textContent--Two {
+    margin-bottom: 40px;
+  }
+  .textContent {
+    margin-bottom: 10px;
+  }
+}*/
 @media (max-width: 1270px) {
   #cssmenu > ul > li {
       margin-right: 0px;
@@ -1208,4 +1225,102 @@ p.radio-bgCust {
     font-size: 12px;
     background-size: 15px 15px;
   }
+}
+
+/*page2*/
+.page4 {
+  background: url(../images/구름.png) no-repeat top center;
+}
+.page4_content {
+  position: absolute;
+  top: 200px;
+  right: 434px;
+  width: 565px;
+  height: 30px;
+  color: #fff;
+}
+.page4_content--row1 {
+  font-size: 110px;
+  line-height: 0.71;
+  letter-spacing: -11.2px;
+  font-weight: 400;
+}
+.page4_content--row2 {
+  font-size: 139px;
+  font-weight: 700;
+  line-height: 1.31;
+  letter-spacing: -7px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page4_content--row3 {
+  font-size: 109px;
+  line-height: 1;
+  letter-spacing: -11px;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.page4_content--row4 {
+  font-size: 33px;
+  letter-spacing: -3.3px;
+}
+.page4_content--row4 span {
+  font-size: 46.5px;
+  line-height: 1;
+  letter-spacing: -1.2px;
+  color: #822628;
+  font-weight: 700;
+}
+.page4_content--row5 {
+  font-size: 14.5px;
+  font-weight: 300;
+  letter-spacing: -0.7px;
+  margin-bottom: 60px;
+}
+.page_02--btnMore {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+  float: left;
+
+  display: block;
+  float: left;
+  padding: 19px 75px 19px 37px; 
+  border-radius: 7px;
+  text-align: right;
+}
+.page02-bg_01 {
+  background: #4d4539 url(../images/아이콘_로긴.png) no-repeat;
+  background-size: 26px 26px;
+  background-position: 88% 50%;
+}
+.page_02--btnMore_2 {
+  display: block;
+  float: right;
+  font-weight: 300;
+  height: 74px;
+  border-radius: 7px;
+  border: solid 1px #362e2b;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  line-height: 74px;
+  padding-right: 28px;
+  padding-left: 28px;
+  font-size: 15px;
+}
+.page_02--btnMore_2 img {
+  width: 31px;
+}
+.page_02--btnMore_2 img, .page_02--btnMore_2 span {
+  margin: 0 4px;
+}
+.page_02--btnMore_2:hover {
+  background: rgba(0,0,0,1);
+}
+.page02-bg_01:hover {
+  background: rgba(0,0,0,.4) url(../images/아이콘_로긴.png) no-repeat;
+  background-size: 26px 26px;
+  background-position: 88% 50%;
 }
