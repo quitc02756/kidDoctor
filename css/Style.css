@@ -1024,10 +1024,11 @@ p.radio-bgCust {
   background-size: 31px 25px;
   background-position: 88% 50%;
 }
-
-.page6 {
+.page6, .page5, .page4, .page03, .page02 {
   height: 100vh;
   overflow-y: auto;
+}
+.page6 {
   background: #ffff00 url(../images/bgPage03.png) no-repeat;
   background-position: 70% 0;
 }
@@ -1651,6 +1652,198 @@ p.radio-bgCust {
     margin: 0 0px;
   }
 }
-@media (min-height: 900px;) {
-
+@media (max-height: 900px) {
+  .bannerOneContent {
+    top: 100px;
+  }
+  .title_headingOne, .title_headingTwo, .title_headingOne--02 {
+    font-size: 100px;
+  }
+  .title_headingTwo {
+    margin-bottom: 20px;
+  }
+  .title_headingThree {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .title_headingFour {
+    font-size: 27px;
+    letter-spacing: 0;
+  }
+  .title_headingTwo--02 {
+    font-size: 38px;
+  }
+  .page2--content {
+    right: 370px;
+    top: 100px;
+  }
+  .textContent {
+    margin-bottom: 0px;
+  }
+  .textContent--One, .textContent--Two {
+    font-size: 115px;
+  }
+  .textContent--Two {
+    margin-bottom: 10px;
+  }
+  .questionMarkAbs {
+    font-size: 310px;
+  }
+  .page2--form---content {
+    padding: 30px 15px;
+  }
+  .radioCust--row01 input {
+    height: 33px;
+  }
+  .btnMore_page2 {
+    height: 45px;
+    line-height: 45px;
+  }
+  .page3_left--row03 {
+    margin-bottom: 180px;
+  }
+  .page3_rightContent {
+    margin-top: 0;
+  }
+  .page3_rightContent--Box{
+    padding: 20px 60px;
+  }
+  .page3_rightContent--Box---right----grid img {
+    height: 50px;
+  }
+  .btt_cth >.row {
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  .page3_left {
+    background-position: 100% 150%;
+  }
+  .page4_content {
+    right: 250px;
+    top: 150px;
+  }
+  .page4_content--row1, .page4_content--row2 {
+    font-size: 100px;
+  }
+  .page4_content--row3 {
+    font-size: 90px;
+  }
+  .table_cust thead > tr > th, .table_cust tbody > tr > td {
+    height: 40px;
+    line-height: 40px;
+  }
+  .page5_content {
+    width: 850px;
+  }
+  .table-scroll {
+    margin-bottom: 20px;
+  }
+  .page_05--contentTitle {
+    font-size: 90px;
+    letter-spacing: 0;
+  }
+  .page_05--contentTitlev2 {
+    font-size: 80px;
+    letter-spacing: 0;
+  }
+  .page_05--content {
+    padding-top: 110px;
+  }
+}
+@media (max-height: 768px) {
+  .title_headingOne, .title_headingTwo, .title_headingOne--02 {
+    font-size: 90px;
+    letter-spacing: 0;
+  }
+  .title_headingTwo {
+    margin-bottom: 10px;
+  }
+  .title_headingThree {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  .title_headingFour {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .title_headingBtn {
+    margin-top: 25px;
+  }
+  .page2--content {
+    right: 300px;
+  }
+  .textContent--One, .textContent--Two {
+    font-size: 90px;
+    letter-spacing: 0;
+  }
+  .questionMarkAbs {
+    font-size: 250px;
+    right: 150px;
+  }
+  .textContent--Three {
+    font-size: 25px;
+  }
+  .page2--form---content .col-md-6, .page2--form---content .col-md-7, .page2--form---content .col-md-5 {
+    margin-bottom: 8px;
+  }
+  .radioCust--row01 input {
+    height: 27px;
+  }
+  .radioCust span {
+    font-size: 18px;
+  }
+  .btnMore_page2 {
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+  }
+  .cmtForm {
+    line-height: 1.5;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  .page3_left--row01 {
+    font-size: 80px;
+    letter-spacing: 0;
+  }
+  .page3_left--row02  {
+    font-size: 70px;
+    letter-spacing: 0;
+  }
+  .page3_left--row03 {
+    font-size: 25px;
+    letter-spacing: 0;
+    margin-bottom: 100px;
+  }
+  .page3_rightContent--Box---right----grid img {
+    height: 35px;
+  }
+  .page3_rightContent--Box---right input[type="text"] {
+    height: 28px;
+  }
+  .page3_rightContent {
+    margin-top: -30px;
+  }
+  .page3_rightContent--Box {
+    padding: 10px 45px;
+  }
+  .page_btnMore {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .page3_left {
+    background-position: 100% 100%;
+  }
+  .btn_pageTwo_def {
+    margin-bottom: 30px;
+  }
+  .page_02--btnMore_2 {
+    line-height: 60px;
+    height: 60px;
+  }
+  .page_02--btnMore {
+    padding: 13px 75px 11px 37px;
+    margin-bottom: 30px;
+  }
 }
