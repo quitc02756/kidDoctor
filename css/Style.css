@@ -1846,4 +1846,20 @@ p.radio-bgCust {
   .page_02--btnMore_2 img, .page_02--btnMore_2 span {
     margin: 0 0px;
   }
+  .title_headingOne, .title_headingOne--02 {
+    font-size: 22px;
+  }
+  .title_headingBtn {
+    margin-top: 7px;
+  }
+  .bannerOneContent  {
+    width: 85%;
+  }
+  a.btnCust {
+    font-size: 11px;
+    width: 115px;
+  }
+  .page2--form---content {
+    width: 100%;
+  }
 }
